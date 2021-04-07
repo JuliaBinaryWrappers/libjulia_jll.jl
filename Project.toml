@@ -1,6 +1,6 @@
 name = "libjulia_jll"
 uuid = "5ad3ddd2-0711-543a-b040-befd59781bbf"
-version = "1.5.3+1"
+version = "1.6.0+0"
 
 [deps]
 utf8proc_jll = "00992c89-a35c-5347-9984-e6609dacc59a"
@@ -28,11 +28,10 @@ LibUV_jll = "183b4373-6708-53ba-ad28-60e28bb38547"
 OpenLibm_jll = "05823500-19ac-5b8b-9628-191a04bc5112"
 
 [compat]
-JLLWrappers = "1.1.0"
+JLLWrappers = "1.2.0"
 julia = "1.0"
-LibOSXUnwind_jll = "=0.0.6"
-OpenBLAS_jll = "=0.3.9"
-PCRE2_jll = "=10.31.0"
-LibGit2_jll = "=0.28.2"
-SuiteSparse_jll = "=5.4.0"
-libLLVM_jll = "=9.0.1"
+LibOSXUnwind_jll = "0.0.6"
+OpenBLAS_jll = "0.3.10"
+PCRE2_jll = "10.31"
+LibGit2_jll = "1.0.1"
+libLLVM_jll = "11.0.0"
