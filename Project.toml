@@ -1,19 +1,15 @@
 name = "libjulia_jll"
 uuid = "5ad3ddd2-0711-543a-b040-befd59781bbf"
-version = "1.5.4+0"
+version = "1.7.0+5"
 
 [deps]
-LibOSXUnwind_jll = "a83860b7-747b-57cf-bf1f-3e79990d037f"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 LibUnwind_jll = "745a5e78-f969-53e9-954f-d19f2f74f4e3"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LibUV_jll = "183b4373-6708-53ba-ad28-60e28bb38547"
-libLLVM_jll = "8f36deef-c2a5-5394-99ed-8e07531fb29a"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.0"
-LibOSXUnwind_jll = "0.0.6"
-libLLVM_jll = "9.0.1"
+julia = "1.6"
