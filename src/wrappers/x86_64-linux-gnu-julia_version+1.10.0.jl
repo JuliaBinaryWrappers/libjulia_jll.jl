@@ -4,8 +4,8 @@ export libjulia, libjulia_debug
 using LibUV_jll
 using LibUnwind_jll
 JLLWrappers.@generate_wrapper_header("libjulia")
-JLLWrappers.@declare_library_product(libjulia, "libjulia.so.1")
-JLLWrappers.@declare_library_product(libjulia_debug, "libjulia-debug.so.1")
+JLLWrappers.@declare_library_product(libjulia, "libjulia.so.1.10")
+JLLWrappers.@declare_library_product(libjulia_debug, "libjulia-debug.so.1.10")
 function __init__()
     JLLWrappers.@generate_init_header(LibUV_jll, LibUnwind_jll)
     JLLWrappers.@init_library_product(

@@ -1,6 +1,6 @@
 name = "libjulia_jll"
 uuid = "5ad3ddd2-0711-543a-b040-befd59781bbf"
-version = "1.10.2+0"
+version = "1.10.3+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
