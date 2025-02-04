@@ -1,6 +1,6 @@
 name = "libjulia_jll"
 uuid = "5ad3ddd2-0711-543a-b040-befd59781bbf"
-version = "1.10.13+0"
+version = "1.10.14+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -11,7 +11,7 @@ LibUV_jll = "183b4373-6708-53ba-ad28-60e28bb38547"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 julia = "1.6"
 Libdl = "< 0.0.1, 1"
 Artifacts = "< 0.0.1, 1"
