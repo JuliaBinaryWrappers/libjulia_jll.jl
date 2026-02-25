@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("libjulia")
-JLLWrappers.@generate_main_file("libjulia", UUID("5ad3ddd2-0711-543a-b040-befd59781bbf"))
+JLLWrappers.@generate_main_file("libjulia", Base.UUID("5ad3ddd2-0711-543a-b040-befd59781bbf"))
 end  # module libjulia_jll
